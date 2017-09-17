@@ -30,11 +30,11 @@ parser that allow you to get acces to int. script functions and variables by sim
  DO NOT USE SHORT VARIABLE NAMES like "i", "a", "num" etc...
  
  DOESN'T SUPPORT MULTI IF STATEMENTS, below example is not allowed:
- 
- 
+```
 if (a>b)
 	then
 	if (b>c)
 		then...
 	endif
 endif
+```
