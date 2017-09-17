@@ -2,6 +2,7 @@
 
 parser that allow you to get acces to int. script functions and variables by simple txt scripts interpreted line by line
 
+
  Function:		execute()
  
  Description:		load script from txt
@@ -13,6 +14,8 @@ parser that allow you to get acces to int. script functions and variables by sim
  Credits:		ExprEval() by Uberi, Eval() by Pulover [Rodolfo U. Batista]
 
 
+
+
 * bascis of lua-like syntax:
 * script must start with expression "start" and end with "end"
 * script is executed line by line 
@@ -22,8 +25,13 @@ parser that allow you to get acces to int. script functions and variables by sim
 * goto goes to line with predefined label
 * label must be ended with ":" sign
 
+
+
  DO NOT USE SHORT VARIABLE NAMES like "i", "a", "num" etc...
+ 
  DOESN'T SUPPORT MULTI IF STATEMENTS, below example is not allowed:
+ 
+ 
 if (a>b)
 	then
 	if (b>c)
