@@ -2,24 +2,26 @@
 
 parser that allow you to get acces to int. script functions and variables by simple txt scripts interpreted line by line
 
+#
 
-### Function:		
+#### Function:		
 execute()
  
-### Description:		
+#### Description:		
 load script from txt
  
-### Return value:		
+#### Return value:		
 boolean, true if script was exectued successfully
 
-### Author:		
+#### Author:		
 Brazyliszek/Brazolek123 [M.Trz]
  
-### Credits:		
+#### Credits:		
 ExprEval() by Uberi, Eval() by Pulover [Rodolfo U. Batista]
 
+#
 
-## Bscis of lua-like syntax:
+## Bascis of lua-like syntax:
 * script must start with expression "start" and end with "end"
 * script is executed line by line 
 * functions and variable assignments must be ended with ";" sign
